@@ -1,0 +1,336 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body >
+    <div class="right"></div>
+    <div class="inside-right"></div>
+    <div class="left"></div>
+    <div class="inside-left"></div>
+    <div class="leg1"></div>
+    <div class="leg2"></div>
+    <div class="body"></div>
+    <div class="arm"></div>
+    <div class="hand"></div>
+    <div class="head"></div>
+    <div class="manija"></div>
+    <div class="atras"></div>
+    <div class="abajo"></div>
+    <div class="adelante"></div>
+    <div class="arriba"></div>
+    <div class="soporte"></div>
+    <div class="junta"></div>
+    <div class="base"></div>
+    <div class="line_one"></div>
+    <div class="line_two"></div>
+    <div class="line_three"></div>
+    <div class="line_four"></div>
+    <div class="line_up"></div>
+    <div class="line_down"></div>
+    <div class="back"></div>
+    <div class="back_point"></div>
+    <div class="front"></div>
+    <div class="front_point"></div>
+    <p class="bici">Bici</p>
+    <p class="compras">Compras</p>
+  </body>
+</html>
+
+
+--------------
+
+
+:root {
+  --color-back: red;
+  --color-font: yellow;
+}
+
+body {
+  background-color: var(--color-back);
+}
+
+div {
+  background-color: var(--color-font);
+}
+
+p {
+  color: var(--color-font);
+  font-size: 75px;
+  font-family: Calisto MT;
+}
+
+.bici {
+  margin-top: 300px;
+  margin-left: 200px;
+}
+
+.compras {
+  margin-top: -100px;
+  margin-left: 110px;
+}
+
+.right {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: -120px;
+  margin-left: 300px;
+}
+
+.inside-right {
+  background-color: var(--color-back);
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 320px;
+}
+
+.left {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: -120px;
+  margin-left: 120px;
+}
+
+.inside-left {
+  background-color: var(--color-back);
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 140px;
+}
+
+.leg1 {
+  width: 15px;
+  height: 70px;
+  position: absolute;
+  border-radius: 0 0 15% 15%;
+  margin-top: -100px;
+  margin-left: 260px;
+}
+
+.leg2 {
+  width: 15px;
+  height: 60px;
+  position: absolute;
+  border-radius: 0 0 15% 15%;
+  margin-top: -149px;
+  margin-left: 242px;
+  transform: rotate(-45deg);
+}
+
+.body {
+  width: 40px;
+  height: 70px;
+  position: absolute;
+  border-radius: 30% 0 15% 15%;
+  margin-top: -198px;
+  margin-left: 225px;
+  transform: rotate(42deg);
+}
+
+.head {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: -235px;
+  margin-left: 270px;
+}
+
+.arm {
+  width: 15px;
+  height: 60px;
+  position: absolute;
+  border-radius: 15% 15% 15% 15%;
+  margin-top: -195px;
+  margin-left: 274px;
+  transform: rotate(-47deg);
+}
+
+.hand {
+  width: 15px;
+  height: 50px;
+  position: absolute;
+  border-radius: 30% 0 15% 15%;
+  margin-top: -173px;
+  margin-left: 316px;
+  transform: rotate(90deg);
+}
+
+.manija {
+  width: 10px;
+  height: 85px;
+  position: absolute;
+  border-radius: 0 0 15% 15%;
+  margin-top: -190px;
+  margin-left: 373px;
+  transform: rotate(-90deg);
+}
+
+.atras {
+  width: 10px;
+  height: 100px;
+  position: absolute;
+  border-radius: 20%;
+  margin-top: -150px;
+  margin-left: 430px;
+  transform: rotate(-20deg);
+}
+
+.abajo {
+  width: 10px;
+  height: 100px;
+  position: absolute;
+  border-radius: 15%;
+  margin-top: -110px;
+  margin-left: 496px;
+  transform: rotate(-95deg);
+}
+
+.adelante {
+  width: 10px;
+  height: 70px;
+  position: absolute;
+  border-radius: 15%;
+  margin-top: -130px;
+  margin-left: 543px;
+  transform: rotate(4deg);
+}
+
+.arriba {
+  width: 10px;
+  height: 120px;
+  position: absolute;
+  border-radius: 15%;
+  margin-top: -186px;
+  margin-left: 482px;
+  transform: rotate(90deg);
+}
+
+.soporte {
+  width: 10px;
+  height: 40px;
+  position: absolute;
+  border-radius: 15%;
+  margin-top: -60px;
+  margin-left: 430px;
+  transform: rotate(40deg);
+}
+
+.base {
+  width: 10px;
+  height: 130px;
+  position: absolute;
+  border-radius: 15%;
+  margin-top: -92px;
+  margin-left: 480px;
+  transform: rotate(90deg);
+}
+
+.line_up {
+  width: 2px;
+  height: 120px;
+  position: absolute;
+  border-radius: 15%;
+  margin-top: -165px;
+  margin-left: 490px;
+  transform: rotate(-90deg);
+}
+
+.line_down {
+  width: 2px;
+  height: 110px;
+  position: absolute;
+  border-radius: 15%;
+  margin-top: -140px;
+  margin-left: 495px;
+  transform: rotate(-90deg);
+}
+
+.line_one {
+  width: 2px;
+  height: 60px;
+  position: absolute;
+  border-radius: 15%;
+  margin-top: -125px;
+  margin-left: 500px;
+  transform: rotate(0deg);
+}
+
+.line_two {
+  width: 2px;
+  height: 60px;
+  position: absolute;
+  border-radius: 15%;
+  margin-top: -125px;
+  margin-left: 520px;
+  transform: rotate(0deg);
+}
+
+.line_three {
+  width: 2px;
+  height: 60px;
+  position: absolute;
+  border-radius: 15%;
+  margin-top: -120px;
+  margin-left: 460px;
+  transform: rotate(0deg);
+}
+
+.line_four {
+  width: 1px;
+  height: 60px;
+  position: absolute;
+  border-radius: 15%;
+  margin-top: -120px;
+  margin-left: 480px;
+  transform: rotate(0deg);
+}
+
+.back {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: -20px;
+  margin-left: 430px;
+}
+
+.back_point {
+  background-color:var(--color-back);
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: -15px;
+  margin-left: 435px;
+}
+
+.front {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: -20px;
+  margin-left: 520px;
+}
+
+.front_point {
+  background-color: var(--color-back);
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: -15px;
+  margin-left: 525px;
+}
